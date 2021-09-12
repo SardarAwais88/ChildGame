@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChildGame.MainPage">
+    
+    <StackLayout>
+   
+
+                <Entry 
+                    x:Name="InputField"
+                    Text=""
+               Placeholder="Enter A todo"
+               TextChanged="HandleTextChanged"
+               Completed="HandleEnterPress"
+                       />
+       <!--
+        now is use this code to show a 3 label name
+        -->
+        <StackLayout x:Name="ToDoList">
+           <!-- <Label Text="Mike Dane" FontSize="Large"/>
+            <Label Text="Mike Dane" FontSize="Large"/>
+            <Label Text="Mike Dane" FontSize="Large"/>
+            -->
+            </StackLayout>
+            
+    </StackLayout>
+    
+</ContentPage>

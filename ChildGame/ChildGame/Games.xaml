@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChildGame.Games">
+   
+   <!--     <Frame CornerRadius="10" BackgroundColor="Color.Gold">
+            <StackLayout Orientation="Horizontal"
+ HorizontalOptions="StartAndExpand">
+                <Label Text="Kids learn Alphabet Game!"
+ FontAttributes="Bold"
+ VerticalTextAlignment="Start" FontSize="25" />
+            <Label Text="curAlphabetNM"
+ FontAttributes="Bold"
+ VerticalTextAlignment="Center" FontSize="30"/>
+        </StackLayout>
+            
+        </Frame>
+-->
+</ContentPage>

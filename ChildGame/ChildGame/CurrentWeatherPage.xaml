@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChildGame.CurrentWeatherPage">
+    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" HeightRequest="160" ColumnSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid BackgroundColor="#758ABA" Opacity="0.4" >
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <Label Text="Sunday" TextColor="White" FontSize="13" HorizontalTextAlignment="Start"/>
+                    <Label Margin="0,-5,0,0" Text="01 Dec" TextColor="White" FontSize="10"/>
+                    <!-- <Image Source="partly_cloudy_day_100px.png" Margin="0,25" WidthRequest="30"/>-->
+
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="0.8">
+                        <Label Text="22" TextColor="White" FontSize="23" HorizontalOptions="Center"/>
+                        <Label Text="o" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+            <Grid BackgroundColor="#758ABA" Opacity="0.6" Grid.Column="1" >
+
+            </Grid>
+
+            <Grid BackgroundColor="#758ABA" Opacity="0.8" Grid.Column="2" >
+
+            </Grid>
+            <Grid BackgroundColor="#758ABA" Grid.Column="3">
+
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>
